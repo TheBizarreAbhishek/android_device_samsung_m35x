@@ -1,4 +1,7 @@
-# Android device tree for samsung SM-A356B (a35x)
+# Android device tree for samsung SM-A356E (a35x)
+
+# Testers
+ - [111hav0c](https://github.com/111hav0c)
 
 ```
 #
