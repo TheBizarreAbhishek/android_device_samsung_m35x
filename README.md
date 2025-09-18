@@ -33,7 +33,7 @@ Minor checks
 - [x] reboot to bootloader (No Bootloader) - in this case i will tick the box if download mode is working - Tested by 111hav0c
 - [x] reboot to recovery - Tested by 111hav0c
 - [x] poweroff - Tested by 111hav0c
-- [ ] battery level
+- [x] battery level - Tested by drnightshadow
 - [x] temperature - Tested by drnightshadow
 - [ ] encrypted backups (Untested)
 - [x] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) (input devices working, storage devices broken) - Tested by drnightshadow
