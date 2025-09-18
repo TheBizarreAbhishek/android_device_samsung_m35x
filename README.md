@@ -31,7 +31,7 @@ Medium checks
 Minor checks
 - [x] MTP export - Tested by drnightshadow
 - [x] reboot to bootloader (No Bootloader) - in this case i will tick the box if download mode is working - Tested by 111hav0c
-- [x] reboot to recovery Tested by 111hav0c
+- [x] reboot to recovery - Tested by 111hav0c
 - [x] poweroff - Tested by 111hav0c
 - [ ] battery level
 - [x] temperature - Tested by drnightshadow
