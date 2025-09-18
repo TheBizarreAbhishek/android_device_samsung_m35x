@@ -10,7 +10,7 @@
 
 # Testers
  - [111hav0c](https://github.com/111hav0c)
- - [drnightshadow](https://xdaforums.com/m/drnightshadow.1393901/)
+ - [drnightshadow](https://github.com/drnightshadow)
 
 # Checks
 Blocking checks
