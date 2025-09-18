@@ -10,36 +10,37 @@
 
 # Testers
  - [111hav0c](https://github.com/111hav0c)
+ - [drnightshadow](https://xdaforums.com/m/drnightshadow.1393901/)
 
 # Checks
 Blocking checks
-- [x] Correct screen/recovery size
-- [x] Working Touch, screen
-- [ ] Backup to internal/microSD (Untested)
-- [ ] Restore from internal/microSD (Untested)
-- [x] reboot to system
-- [x] ADB
+- [x] Correct screen/recovery size - Tested by 111hav0c
+- [x] Working Touch, screen - Tested by 111hav0c
+- [x] Backup to internal/microSD - Tested by drnightshadow
+- [x] Restore from internal/microSD - Tested by drnightshadow
+- [x] reboot to system - Tested by 111hav0c
+- [x] ADB - Tested by 111hav0c
 
 Medium checks
 - [ ] update.zip sideload (Untested)
-- [x] Screen goes off and on
-- [ ] F2FS/EXT4 Support, exFAT/NTFS where supported (Untested)
-- [x] all important partitions listed in mount/backup lists
+- [x] Screen goes off and on - Tested by 111hav0c
+- [x] F2FS/EXT4 Support, exFAT/NTFS where supported
+- [x] all important partitions listed in mount/backup lists - Tested by 111hav0c
 - [ ] backup/restore to/from external (USB-OTG) storage (not supported by the device) (Untested)
 
 Minor checks
-- [ ] MTP export (Untested)
-- [ ] reboot to bootloader (No Bootloader)
-- [x] reboot to recovery
-- [x] poweroff
-- [x] battery level
-- [x] temperature
+- [x] MTP export - Tested by drnightshadow
+- [x] reboot to bootloader (No Bootloader) - in this case i will tick the box if download mode is working - Tested by 111hav0c
+- [x] reboot to recovery Tested by 111hav0c
+- [x] poweroff - Tested by 111hav0c
+- [ ] battery level
+- [x] temperature - Tested by drnightshadow
 - [ ] encrypted backups (Untested)
-- [ ] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) (Untested)
-- [ ] USB mass storage export (Untested)
-- [ ] set brightness (Untested)
-- [x] vibrate
-- [ ] screenshot (Untested)
+- [x] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) (input devices working, storage devices broken) - Tested by drnightshadow
+- [ ] USB mass storage export (USB OTG WONT MOUNT)
+- [x] set brightness - Tested by drnightshadow
+- [x] vibrate - Tested by 111hav0c
+- [x] screenshot - Tested by 111hav0c
 - [ ] partition SD card (Untested)
 
 ```
