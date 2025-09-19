@@ -26,7 +26,7 @@ Medium checks
 - [x] Screen goes off and on - Tested by 111hav0c
 - [x] F2FS/EXT4 Support, exFAT/NTFS where supported
 - [x] all important partitions listed in mount/backup lists - Tested by 111hav0c
-- [ ] backup/restore to/from external (USB-OTG) storage (not supported by the device) (Untested)
+- [x] backup/restore to/from external (USB-OTG) storage (not supported by the device) - Tested by drnightshadow
 
 Minor checks
 - [x] MTP export - Tested by drnightshadow
@@ -36,8 +36,8 @@ Minor checks
 - [x] battery level - Tested by drnightshadow
 - [x] temperature - Tested by drnightshadow
 - [ ] encrypted backups (Untested)
-- [x] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) (input devices working, storage devices broken) - Tested by drnightshadow
-- [ ] USB mass storage export (USB OTG WONT MOUNT)
+- [x] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) - Tested by drnightshadow
+- [x] USB mass storage export - Tested by drnightshadow
 - [x] set brightness - Tested by drnightshadow
 - [x] vibrate - Tested by 111hav0c
 - [x] screenshot - Tested by 111hav0c
