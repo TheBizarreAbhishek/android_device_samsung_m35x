@@ -8,9 +8,10 @@
 ## Build
     export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_a35x-eng; mka recoveryimage
 
-# Testers
- - [111hav0c](https://github.com/111hav0c)
- - [drnightshadow](https://github.com/drnightshadow)
+# Contributors
+ - [111hav0c](https://github.com/111hav0c) - Tester
+ - [drnightshadow](https://github.com/drnightshadow) - Tester
+ - [Physwizz](https://github.com/physwizz) - Thanks to Physwizz for the Custom Kernel
 
 # Checks
 Blocking checks
