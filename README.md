@@ -4,7 +4,7 @@
 ## Sync twrp-12.1
     repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1; repo sync
 ## Clone Galaxy A35 Tree
-    git clone https://github.com/SavedByLight/android_device_samsung_a35x.git -b android-12.1 device/samsung/a35x
+    git clone https://github.com/teamwin/android_device_samsung_a35x.git -b android-12.1 device/samsung/a35x
 ## Build
     export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_a35x-eng; mka recoveryimage
 
@@ -12,6 +12,8 @@
  - [111hav0c](https://github.com/111hav0c)
  - [drnightshadow](https://github.com/drnightshadow)
 
+# Known Bugs
+ - /Data wont mount (known samsung issue)
 # Checks
 Blocking checks
 - [x] Correct screen/recovery size - Tested by 111hav0c
