@@ -1,3 +1,5 @@
+# m35x
+
 on fs && property:sys.usb.configfs=1
     mkdir /config/usb_gadget/g1/functions/ffs.mtp
 

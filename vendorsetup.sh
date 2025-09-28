@@ -5,4 +5,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Saves you typing this in the build command
 export ALLOW_MISSING_DEPENDENCIES=true
