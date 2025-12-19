@@ -16,7 +16,7 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Health
-PRODUCT_PACKAGES += \ 
+PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
