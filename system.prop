@@ -1,3 +1,8 @@
 sys.usb.controller=13200000.dwc3
 ro.boot.dynamic_partitions=true
 ro.boot.boot_devices=13500000.ufs
+
+# FBE Crypto Properties
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.allow_encrypt_override=true
+ro.crypto.volume.metadata.method=aes-256-xts
