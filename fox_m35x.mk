@@ -9,11 +9,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common twrp stuff.
-$(call inherit-product-if-exists, vendor/twrp/config/common.mk)
-
-# Inherit some common pbrp stuff.
-$(call inherit-product-if-exists, vendor/pb/config/common.mk)
+# Inherit some common OrangeFox stuff.
+$(call inherit-product, vendor/orangefox/config/common.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
@@ -22,11 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, device/samsung/m35x/device.mk)
 
 PRODUCT_DEVICE := m35x
-PRODUCT_NAME := twrp_m35x
+PRODUCT_NAME := fox_m35x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M356B
 PRODUCT_MANUFACTURER := samsung
-
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/m35x/recovery/root,recovery/root)
 
